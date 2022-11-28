@@ -6,8 +6,7 @@ class UserBio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 25,horizontal: 5
-      ),
+      padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 5),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
@@ -22,7 +21,7 @@ class UserBio extends StatelessWidget {
             'SF,CA',
           ),
           Text(
-            'www.andrewmundy.net',
+            'www.andrewmundys.net',
           ),
         ],
       ),

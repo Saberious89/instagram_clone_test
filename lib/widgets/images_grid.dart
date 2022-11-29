@@ -58,12 +58,16 @@ class _ImagesGridWidgetState extends State<ImagesGridWidget> {
                                     color: Colors.grey,
                                   ),
                                 ),
-                                child: FadeInImage(
-                                  placeholder: const AssetImage(
+                                child: const FadeInImage(
+                                  fadeInDuration: Duration(
+                                    seconds: 1,
+                                  ),
+                                  placeholder: AssetImage(
                                     'assets/images/PlaceHolder2.jpg',
                                   ),
                                   image: NetworkImage(
-                                      value.posts[index].thumbnailUrl!),
+                                      // value.posts[index].thumbnailUrl!,
+                                      'https://wallpapergram.ir/wp-img/WallpaperGram.IR_1662039432_3785.jpg'),
                                 ),
                               ),
                               onTap: () {
